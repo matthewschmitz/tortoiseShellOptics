@@ -1,0 +1,258 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.siteContainer {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  position: relative;
+  top: 1rem;
+}
+
+header img {
+  height: 1.5rem;
+  margin: 0 1rem 0 2rem;
+  vertical-align: middle;
+}
+
+.logoTitle p {
+  display: inline-block;
+}
+
+nav p {
+  display: inline-block;
+  margin: 1rem 2rem 1rem 0;
+}
+
+.headerBox {
+  float: right;
+  position: relative;
+  top: 11rem;
+  left: 2rem;
+  display: inline-block;
+  background-color: white;
+  padding: 1.5rem 5rem 1.5rem 5rem;
+}
+
+.headerBox h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.perks {
+  position: relative;
+  top: 30rem;
+  left: 14.16667rem;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+}
+
+.perk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 5rem;
+}
+
+#fittings {
+  margin: 0 6rem;
+}
+
+#exams img {
+  width: 3.5rem;
+}
+
+#fittings img {
+  width: 5rem;
+}
+
+#delivery img {
+  width: 5rem;
+}
+
+.features {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blockText {
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+  top: 33rem;
+  width: 35%;
+}
+
+#philosophy {
+  margin-right: 5%;
+}
+
+.blockText h1 {
+  display: inline-block;
+  width: 17rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: cadetblue;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  top: 38rem;
+  padding: 4rem;
+  background-color: azure;
+}
+
+footer img {
+  vertical-align: middle;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+footer p {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 960px) {
+  .siteContainer {
+    width: 700px;
+  }
+
+  header {
+    top: 0;
+  }
+
+  .backgroundImage {
+    height: 22rem;
+  }
+
+  .headerBox {
+    top: 6rem;
+    left: -2rem;
+    padding: 0.75rem 4rem 0.75rem 4rem;
+  }
+
+  .headerBox h1 {
+    font-size: 1.33rem;
+  }
+
+  .perks {
+    top: 23rem;
+    left: 10.8rem;
+  }
+
+  .blockText {
+    width: 27%;
+    top: 26rem;
+  }
+
+  .blockText h1 {
+    display: inline-block;
+    width: 10rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+  }
+
+  footer {
+    top: 30rem;
+    padding: 2rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .siteContainer {
+    width: 500px;
+  }
+
+  .logoTitle p {
+    display: none;
+  }
+
+  .backgroundImage {
+    height: 17rem;
+    background-position: left;
+  }
+
+  .headerBox {
+    float: none;
+    position: relative;
+    top: 10rem;
+    left: 0;
+    padding: 0.75rem 7.6rem;
+    text-align: center;
+  }
+
+  .headerBox h1 {
+    font-size: 1.33rem;
+  }
+
+  .perks {
+    position: relative;
+    top: 13rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 21rem;
+  }
+
+  .perk img {
+    margin-bottom: 0.75rem;
+  }
+
+  .blockText {
+    top: 15rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .blockText h1 {
+    width: 95%;
+  }
+
+  footer {
+    top: 17rem;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  footer img {
+    margin: 0 auto;
+  }
+}
